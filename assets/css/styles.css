@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+    transition: 0.5;
+}
+.logoimg{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.nav-wrapper{
+    background-color: #410680 ;
+    position: sticky !important;
+}
+.nav-wrapper ul a{
+    font-size: 20pt;
+}
+
+.page-footer{
+    background-color: #410680;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16pt;
+    color: black;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#contenido{
+    background-color: #b2b5ed;
+}
+
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: table;
+    text-align: justify;
+    padding-bottom: 3%; 
+}
+
+h3{
+    padding-bottom: 3%;
+    text-align: center;
+    color:#0f3972;
+    font-weight: bold;
+}
+.tabs .tab{
+    background-color: #4a1781;
+}
+
+.tabs .tab a{
+    color:white;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color:#8b37e4;
+    color:white;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+    background-color:#4a1781;
+    color:white;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color:white;
+} /*Color of underline*/
+
+.foto{    
+    padding: 2% 10%;
+}
+
+ol{
+    margin-left: 5%;
+}
+
+.responsive-img{
+    border-radius: 3%;
+}
